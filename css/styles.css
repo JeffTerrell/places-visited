@@ -1,3 +1,16 @@
 #output {
   display: none;
 }
+
+.container {
+  width: 25%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+h1 {
+  color: navy;
+}
+.btn {
+  background-color: rgb(214, 87, 3);
+}

@@ -47,10 +47,24 @@ $(document).ready(function() {
     $("#notes").text(hawaii.notes);
   });
   $("button#paris").click(function() {
+    $("#output").show();
+    $("#location").text(paris.location);
+    $("#landmarks").text(paris.landmarks);
+    $("#timeOfYear").text(paris.timeOfYear);
+    $("#notes").text(paris.notes);
   });
   $("button#ireland").click(function() {
+    $("#output").show();
+    $("#location").text(ireland.location);
+    $("#landmarks").text(ireland.landmarks);
+    $("#timeOfYear").text(ireland.timeOfYear);
+    $("#notes").text(ireland.notes);
   });
   $("button#seattle").click(function() {
+    $("#output").show();
+    $("#location").text(seattle.location);
+    $("#landmarks").text(seattle.landmarks);
+    $("#timeOfYear").text(seattle.timeOfYear);
+    $("#notes").text(seattle.notes);
   });
-
 });
