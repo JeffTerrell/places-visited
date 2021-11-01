@@ -10,7 +10,16 @@
 
 h1 {
   color: navy;
+  text-decoration: underline;
 }
 .btn {
   background-color: rgb(214, 87, 3);
+}
+
+#output {
+  margin: auto;
+  margin-top: 5%;
+  color: navy;
+  box-shadow: 0px 1px 15px rgb(214, 87, 3);
+  width: 50%;
 }
